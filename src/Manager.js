@@ -29,7 +29,7 @@ export default class Manager {
   }
 
   getIndex(collection, ref) {
-    return this.refs[collection].indexOf(ref);
+    return this.refs[collection] ? this.refs[collection].indexOf(ref) : -1;
   }
 
   getOrderedRefs(collection = this.active.collection) {
