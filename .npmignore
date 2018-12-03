@@ -1,6 +1,7 @@
 .github
 .babelrc
 coverage
+examples
 src
 test
 .*
@@ -13,3 +14,4 @@ webpack.config.*.js
 babel.preprocess.sass.js
 codecov.yml
 .travis.yml
+/*.tgz
